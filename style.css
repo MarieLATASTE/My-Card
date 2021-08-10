@@ -9,7 +9,7 @@
     --theme-color: #b9fb10;
 }
 body{
-    background: #aaa;
+    background: #444;
     font-family: 'Dancing Script', cursive;
 }
 .container{
@@ -21,7 +21,7 @@ body{
     border-top: 3px solid rgba(255,255,255,.35);
     border-radius: 1.2rem;
     background: linear-gradient(to bottom, var(--theme-color) 110px, #f3f4f7 110px);
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    box-shadow: 0 .5rem 1rem rgba(255,255,255,.15);
     padding: 3rem 0;
 }
 .card *{
@@ -31,7 +31,7 @@ body{
 .card img{
     position: relative;
     display: block;
-    width: 100px;height: 100px;
+    width: 120px;height: 120px;
     border-radius: 50%;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -80,7 +80,8 @@ body{
 }
 .container .themes{
     background-color: #f3f4f7;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    box-shadow: 0 .5rem 1rem rgba(255,255,255,.15);
+    border-radius: 1.5rem;
     padding: 1.25rem;
     margin-top: 2.5rem;
     display: flex;justify-content: space-around;
@@ -99,11 +100,11 @@ body{
     background-color: #ffc0cb;
 }
 .container .themes button.btn3{
-    background-color: #f10000;
+    background-color: #ff0033;
 }
 .container .themes button.btn4{
     background-color: #4b0082;
 }
 .container .themes button.btn5{
-    background-color: #ffd700;
+    background-color: #6bf96e;
 }
