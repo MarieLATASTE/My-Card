@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 
 *, *::before, *::after{
@@ -10,17 +10,16 @@
 }
 body{
     background: #444;
-    font-family: 'Dancing Script', cursive;
-}
+    font-family: 'Fredericka the Great', cursive;}
 .container{
     position: absolute;top: 50%;left: 50%;
     transform: translate(-50%,-50%);
 }
 .card{
     width: 320px;height: 420px;
-    border-top: 3px solid rgba(255,255,255,.35);
+    border-top: 3px solid rgba(255,255,255,.35);border-left: 3px solid rgba(255,255,255,.35);
     border-radius: 1.2rem;
-    background: linear-gradient(to bottom, var(--theme-color) 110px, #f3f4f7 110px);
+    background: linear-gradient(to bottom, var(--theme-color) 110px, rgba(243, 244, 247,.15) 110px);
     box-shadow: 0 .5rem 1rem rgba(255,255,255,.15);
     padding: 3rem 0;
 }
@@ -38,13 +37,13 @@ body{
     margin: 0 auto;
     box-shadow: 0 0 0 .5rem var(--theme-color);
 }
-.card h3{
+.card h2{
     color: var(--theme-color);
     font-size: 1rem;
     margin: 1rem 0 .5rem 0;
 }
-.card h5{
-    color: #454545;
+.card h4{
+    color: #f3f4f7;
     font-size: .8rem;
 }
 .card .details{
@@ -79,8 +78,9 @@ body{
     color: var(--theme-color);
 }
 .container .themes{
-    background-color: #f3f4f7;
+    background: rgba(243, 244, 247,.15);
     box-shadow: 0 .5rem 1rem rgba(255,255,255,.15);
+    border-top: 3px solid rgba(255,255,255,.35);border-left: 3px solid rgba(255,255,255,.35);
     border-radius: 1.5rem;
     padding: 1.25rem;
     margin-top: 2.5rem;
@@ -94,10 +94,10 @@ body{
     cursor: pointer;
 }
 .container .themes button.btn1{
-    background-color: #00ffff;
+    background-color: #3867d6;
 }
 .container .themes button.btn2{
-    background-color: #ffc0cb;
+    background-color: #fc427b;
 }
 .container .themes button.btn3{
     background-color: #ff0033;
@@ -106,5 +106,5 @@ body{
     background-color: #4b0082;
 }
 .container .themes button.btn5{
-    background-color: #6bf96e;
+    background-color: #004930;
 }

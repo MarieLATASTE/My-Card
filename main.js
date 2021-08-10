@@ -7,10 +7,10 @@ btns.forEach(function(btn){
         const color = e.currentTarget.classList;
 
         if(color.contains("btn1")) {
-            theme.style.setProperty("--theme-color", "#00ffff");
+            theme.style.setProperty("--theme-color", "#3867d6");
         }
         else if(color.contains("btn2")) {
-            theme.style.setProperty("--theme-color", "#ffc0cb");
+            theme.style.setProperty("--theme-color", "#fc427b");
         }
         else if(color.contains("btn3")) {
             theme.style.setProperty("--theme-color", "#ff0033");
@@ -19,7 +19,7 @@ btns.forEach(function(btn){
             theme.style.setProperty("--theme-color", "#4b0082");
         }
         else {
-            theme.style.setProperty("--theme-color", "#6bf96e");
+            theme.style.setProperty("--theme-color", "#004930");
         }
     });
 });
