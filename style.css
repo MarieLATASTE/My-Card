@@ -9,7 +9,7 @@
     --theme-color: #b9fb10;
 }
 body{
-    background: #333;
+    background: #aaa;
     font-family: 'Dancing Script', cursive;
 }
 .container{
@@ -21,4 +21,41 @@ body{
     border-top: 3px solid rgba(255,255,255,.35);
     border-radius: 1.2rem;
     background: linear-gradient(to bottom, var(--theme-color) 110px, #f3f4f7 110px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    padding: 3rem 0;
+}
+.card *{
+    text-align: center;
+    letter-spacing: 1px;
+}
+.card img{
+    position: relative;
+    display: block;
+    width: 100px;height: 100px;
+    border-radius: 50%;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    margin: 0 auto;
+    box-shadow: 0 0  0 .5rem var(--theme-color);
+}
+.card h3{
+    color: var(--theme-color);
+    font-size: 1rem;
+    margin: 1rem 0 .5rem 0;
+}
+.card h5{
+    color: #454545;
+    font-size: .8rem;
+}
+.card .details{
+    display: flex;justify-content: space-around;
+    width: 100%;
+    margin-top: 2rem;
+}
+.card .details span{
+    color: var(--theme-color);
+    font-size: 1.5rem;
+}
+.card .details span i{
+    margin-top: 1.5rem;
 }
