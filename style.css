@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+
+*, *::before, *::after{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --theme-color: #b9fb10;
+}
+body{
+    background: #333;
+    font-family: 'Dancing Script', cursive;
+}
+.container{
+    position: absolute;top: 50%;left: 50%;
+    transform: translate(-50%,-50%);
+}
+.card{
+    width: 320px;height: 420px;
+    border-top: 3px solid rgba(255,255,255,.35);
+    border-radius: 1.2rem;
+    background: linear-gradient(to bottom, var(--theme-color) 110px, #f3f4f7 110px);
+}
